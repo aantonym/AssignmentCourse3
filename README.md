@@ -30,9 +30,13 @@ In order to run this file, the following files are required to be present in the
 
 - 'subject_train.txt': Each row identifies the subject who performed the activity for each window sample in the training set.
 
+In addition the library dplyr is required.
+
 ##Usage:
 The R script run_analysis.R contains a single function called cleandata() which takes no arguments.
 In an R console, with the working directory set to the location containing both the run_analysis.R file as well as the data files as detailed below, the follow commands may be run:
+
+>>library(dplyr)
 
 >> source("run_analysis.R")
 
